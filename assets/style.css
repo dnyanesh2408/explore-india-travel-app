@@ -41,6 +41,8 @@ a{
 }
 .nav-link{
     font-size: larger !important;
+    font-weight: 500 !important;
+    color: #000;
 }
 section{
     /* scroll-margin-top: 5rem; */
@@ -59,7 +61,9 @@ section{
 .hero-content p{
     width: 65%;
     font-size: 60px;
-    color: royalblue;
+    /* color: royalblue; */
+    /* color: var(--bs-primary); */
+    color: var(--bs-blue);
 }
 .search{
     margin-top: 2rem;
@@ -119,8 +123,10 @@ section{
     }
     #footer{
         text-align: center;
+        margin-top: 2rem;
     }
 }
 .card{
-    background-color: rgba(246, 246, 246, 0.466) !important;
+    background-color: rgba(246, 246, 246, 0.363) !important;
+    backdrop-filter: 10%;
 }
