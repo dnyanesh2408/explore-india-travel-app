@@ -20,7 +20,8 @@ a{
 .navbar-brand{
     font-size: 30px !important;
     font-weight: bold;
-    color: mediumseagreen !important;
+    /* color: mediumseagreen !important; */
+    color: teal !important;
 }
 .navbar-toggler{
     background-color: rgb(32, 32, 32) !important;
@@ -33,7 +34,8 @@ a{
     background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='square' stroke-miterlimit='10'  d='M4 8h24M4 16h24M4 24h24'/></svg>") !important; 
 }
 .navbar{
-    background-color: #ffffff30;
+    /* background-color: #ffffff30; */
+    background-color: #f2f3f252;
     --bs-navbar-toggler-padding-y: 0.4rem !important;
     --bs-navbar-toggler-padding-x: 0.4rem !important;
     --bs-navbar-toggler-font-size: 1rem !important;
@@ -43,8 +45,16 @@ a{
 .nav-link{
     font-size: larger !important;
     font-weight: 500 !important;
-    color: #000;
-    margin: 0.2rem;
+    margin: 0.4rem;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    border: 1px solid #00000000 !important;
+    border-radius: 2rem;
+    /* background-color: mediumturquoise !important; */
+    background-color: rgba(72, 209, 205, 0.717) !important;
+}
+.nav-link:hover{
+    background-color: aquamarine !important;
 }
 section{
     /* scroll-margin-top: 5rem; */
@@ -72,7 +82,11 @@ section{
     width: 40%;
 }
 #myFilter{
-    border: 1px solid orange;
+    background-color: #e8e8e839;
+    border: 2px solid orange;
+}
+#myFilter:hover{
+    border: 2px solid mediumturquoise;
 }
 #about{
     padding-top: 8rem;
@@ -108,6 +122,9 @@ section{
 
 
 @media(max-width: 576px){
+    ul{
+        text-align: center;
+    }
     .hero-content p{
         font-size: 24px;
         font-weight: bold;
@@ -137,18 +154,25 @@ section{
     border-top-left-radius: 2rem !important;
     border-top-right-radius: 2rem !important;
 }
+.card-text{
+    margin-top: 1rem;
+}
+
 #link{
-    border: 2px solid royalblue;
-    border-style: dotted;
-    padding-top: 1px;
+    /* border: 2px solid royalblue;
+    border-style: dotted; */
+   background-color: mediumaquamarine;
+    /* padding-top: 1px;
     padding-bottom: 2px;
     padding-left: 3px;
-    padding-right: 3px;
-    border-radius: 0.8rem;
+    padding-right: 3px; */
+    padding: 0.5rem;
+    border-radius: 2rem;
+    color: #000;
 }
 #link:hover{
-    border: 2px solid darkcyan;
-    color: darkcyan;
-    border-style: dotted;
+    /* border: 2px solid darkcyan;
+    border-style: dotted; */
+    background-color: rgb(125, 220, 188) !important;
     transition: all 0.3s ease-in-out;
 }
