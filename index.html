@@ -195,9 +195,10 @@
         title = cards[i].querySelector(".card-body h5.card-title");
         if (title.innerText.toUpperCase().indexOf(filter) > -1) {
             cards[i].style.display = "";
+        } else if {
+            cards[i].style.display = "none";
         } else {
-            cards[i].style.display = "place not found";
-        }
+            cards[i].style.display = "Not Match";
     }
 }
     </script>
